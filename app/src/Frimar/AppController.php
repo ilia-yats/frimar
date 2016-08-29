@@ -3,6 +3,8 @@
 namespace Frimar;
 
 use Interop\Container\ContainerInterface;
+use Slim\Http\Request;
+use Slim\Http\Response;
 
 class AppController
 {
@@ -18,8 +20,14 @@ class AppController
 
     public function install(Request $request, Response $response, array $args)
     {
-        $install_stmt = $this->ci->get('db')->prepare("
+        die('Automatic installation cannot be performed, please install manually');
+    }
 
-        ");
+    public function home(Request $request, Response $response, array $args)
+    {
+        $this->ci->get('view')->render(
+            $response,
+            'app/home.twig'
+        );
     }
 }
