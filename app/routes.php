@@ -1,5 +1,7 @@
 <?php
 
+$app->get('/', '\Frimar\AppController:home')->setName('home');
+
 $app->get('/install', '\Frimar\AppController:install')->setName('install');
 
 $app->get('/contact/list', '\Frimar\ContactController:show_list')->setName('contact_list');
