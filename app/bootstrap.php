@@ -34,7 +34,7 @@ $container['db'] = function($c) {
      */
     $conn = new \PDO(
         $c['config']->get('mysql.dsn'),
-        $c['config']->get('mysql.user_name'),
+        $c['config']->get('mysql.user'),
         $c['config']->get('mysql.pass')
     );
 //    $conn = new \PDO($c['config']->get('sqlite.dsn'));
