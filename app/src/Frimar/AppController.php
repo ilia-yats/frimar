@@ -20,7 +20,9 @@ class AppController
 
     public function install(Request $request, Response $response, array $args)
     {
-        die('Automatic installation cannot be performed, please install manually');
+        $db_dump = file_get_contents($this->ci->get('config')->get('base_path') . '/frimar_dump.sql');
+        echo $db_dump;
+
     }
 
     public function home(Request $request, Response $response, array $args)
