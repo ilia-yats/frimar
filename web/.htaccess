@@ -1,0 +1,8 @@
+RewriteEngine on
+# protect files, which names begin with dot
+RedirectMatch 403 /\..*$
+# give directly existing files and folders
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+# redirect to index.php if file doesn't exist
+RewriteRule . index.php

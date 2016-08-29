@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Frimar</title>
+    {% block styles %}
+        <link href="{{ base_url() }}/assets/bootstrap/css/bootstrap.css" rel="stylesheet">
+    {% endblock %}
+</head>
+<body>
+<div class="container">
+    {% block page_header %} {% endblock %}
+    {% block body %} {% endblock %}
+</div>
+{% block scripts %}
+    <script src="http://code.jquery.com/jquery-latest.js"></script>
+    <script src="{{ base_url() }}/assets/bootstrap/js/bootstrap.min.js"></script>
+{% endblock %}
+</body>
+</html>
