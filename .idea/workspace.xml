@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63272171-678b-44f2-a1da-bf799d0e39f9" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/db.php" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/config/result.txt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/app.php" afterPath="$PROJECT_DIR$/config/app.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/frimar_dump.sql" afterPath="$PROJECT_DIR$/frimar_dump.sql" />
     </list>
     <ignored path="frimar.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -78,10 +76,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ContactController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ContactController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/src/Frimar/ContactController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.029259896">
+            <state vertical-scroll-proportion="0.0">
               <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
               <folding>
                 <element signature="e#26#67#0#PHP" expanded="true" />
@@ -96,6 +94,16 @@
                 <marker date="1472428798064" expanded="true" signature="4569:4615" placeholder="UPDATE conta... " />
                 <marker date="1472428798064" expanded="true" signature="4958:5016" placeholder="INSERT INTO contacts... " />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="frimar_dump.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/frimar_dump.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.8064516">
+              <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -139,6 +147,7 @@
         <option value="$PROJECT_DIR$/app/src/Frimar/AppController.php" />
         <option value="$PROJECT_DIR$/config/db.php" />
         <option value="$PROJECT_DIR$/config/app.php" />
+        <option value="$PROJECT_DIR$/frimar_dump.sql" />
       </list>
     </option>
   </component>
@@ -758,13 +767,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/frimar_dump.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32258064">
-          <caret line="120" column="23" selection-start-line="120" selection-start-column="23" selection-end-line="120" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/app/home.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -817,7 +819,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/Frimar/ContactController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.029259896">
+        <state vertical-scroll-proportion="0.0">
           <caret line="41" column="44" selection-start-line="41" selection-start-column="44" selection-end-line="41" selection-end-column="44" />
           <folding>
             <element signature="e#26#67#0#PHP" expanded="true" />
@@ -832,6 +834,14 @@
             <marker date="1472428798064" expanded="true" signature="4569:4615" placeholder="UPDATE conta... " />
             <marker date="1472428798064" expanded="true" signature="4958:5016" placeholder="INSERT INTO contacts... " />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/frimar_dump.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.8064516">
+          <caret line="114" column="0" selection-start-line="114" selection-start-column="0" selection-end-line="114" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
