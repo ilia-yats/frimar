@@ -20,7 +20,8 @@ class AppController
 
     public function install(Request $request, Response $response, array $args)
     {
-        $db_dump = file_get_contents($this->ci->get('config')->get('base_path') . '/frimar_dump.sql');
+        $db_dump_strings = file($this->ci->get('config')->get('base_path') . '/frimar_dump.sql');
+        $db_dump = implode("\n", $db_dump_strings);
         echo $db_dump;
 
     }
