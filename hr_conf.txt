@@ -1,2 +1,0 @@
-=== frimar Config Vars
-CLEARDB_DATABASE_URL: mysql://b7ee9265ff7168:5242f847@eu-cdbr-west-01.cleardb.com/heroku_e1662f136f375fb?reconnect=true
