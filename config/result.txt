@@ -1,7 +1,0 @@
-Array
-(
-    [host] => eu-cdbr-west-01.cleardb.com
-    [user] => b7ee9265ff7168
-    [pass] => 5242f847
-    [db_name] => heroku_e1662f136f375fb
-)
